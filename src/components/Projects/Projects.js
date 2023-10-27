@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Ultim"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, ShadCn-UI, and Vercel. Have features which allows user for realtime messaging as well as supports reactions on messages."
+              description="Personal Chat Room or Workspace to share resources and hangout with friends build with next js ,typescrpt , react.js, ShadCn-UI, and Vercel. Have features which allows user for realtime messaging as well as supports reactions on messages."
               ghLink="https://github.com/Aaskin345/ultim"
               demoLink="https://ultim-apab.vercel.app/"
             />
@@ -48,7 +48,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Intern"
-              description="A web application  build with Typscript .It stores data for interns posted to a certain company to keep track of their progress."
+              description="A web application build with reactjs, nextjs,Typescript .It stores data for interns posted to a certain company to keep track of their progress."
               ghLink="https://github.com/soumyajit4419/Editor.io"
             />
           </Col>
@@ -69,7 +69,7 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Image resolution "
-              description="Using an already trained Generative Adverserial Network(GAN) model.I developed an artificially intelligent program that increases the resolution of low quality images to an improved version of the image."
+              description="Using an already trained Generative Adverserial Network(GAN)model.I developed an artificially intelligent program that increases the resolution of low quality images to an improved version of the image."
               ghLink="https://github.com/Aaskin345/image_resolution"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
