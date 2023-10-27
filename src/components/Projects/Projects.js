@@ -50,7 +50,6 @@ function Projects() {
               title="Intern"
               description="A web application  build with Typscript .It stores data for interns posted to a certain company to keep track of their progress."
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
