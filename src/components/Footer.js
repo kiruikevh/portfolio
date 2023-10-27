@@ -2,10 +2,15 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
+
+  // Your WhatsApp number
+  const whatsappNumber = '+254706012216';
+
   return (
     <Container fluid className="footer">
       <Row>
@@ -39,13 +44,22 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="www.linkedin.com/in/
-                kevin-kirui-1906b4240"
+                href="https://www.linkedin.com/in/kevin-kirui-1906b4240"
                 style={{ color: 'white' }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href={`https://wa.me/${whatsappNumber}`}
+                style={{ color: 'white' }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp /> {/* WhatsApp icon */}
               </a>
             </li>
           </ul>
