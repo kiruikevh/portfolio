@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Intern"
               description="A web application build with reactjs, nextjs,Typescript .It stores data for interns posted to a certain company to keep track of their progress."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/Aaskin345/intern"
             />
           </Col>
 
