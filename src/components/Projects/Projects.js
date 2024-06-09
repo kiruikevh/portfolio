@@ -48,7 +48,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Intern"
-              description="A web application build with reactjs, nextjs,Typescript .It stores data for interns posted to a certain company to keep track of their progress."
+              description="A web application build with reactjs, nextjs,Typescript .It stores data for interns posted to a certain company to keep track of TaskS Allocated."
               ghLink="https://github.com/Aaskin345/intern"
             />
           </Col>
@@ -71,6 +71,18 @@ function Projects() {
               title="Image resolution "
               description="Using an already trained Generative Adverserial Network(GAN)model.I developed an artificially intelligent program that increases the resolution of low quality images to an improved version of the image."
               ghLink="https://github.com/Aaskin345/image_resolution"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Cooperative Management  "
+              description="A portal for user to make contributions to a cooperative society and track their already made contribution.Users also see upcoming events scheduled by the cooperative society . Admins is the super user.
+              Built using C# , asp dotnet framework, sql  "
+              ghLink="https://github.com/kiruikevh/CooperativeManagement"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>

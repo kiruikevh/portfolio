@@ -31,7 +31,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+               I also my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -42,6 +42,14 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
+              </i>
+              <i></i>
+              &nbsp;
+              <i>
+                <b className="purple">
+                  {' '}
+                  And Developing Portals with Csharp and ASP dot net{' '}
+                </b>
               </i>
             </p>
           </Col>

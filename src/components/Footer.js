@@ -9,7 +9,7 @@ function Footer() {
   let year = date.getFullYear();
 
   // Your WhatsApp number
-  const whatsappNumber = '+254706012216';
+  const whatsappNumber = '+254796809616';
 
   return (
     <Container fluid className="footer">
