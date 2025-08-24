@@ -27,6 +27,24 @@
 .App-link {
   color: #61dafb;
 }
+.service-card {
+  background: #ffffff;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.service-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.service-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
 
 @keyframes App-logo-spin {
   from {
