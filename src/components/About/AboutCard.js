@@ -5,40 +5,50 @@ import { Button } from "react-bootstrap";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view shadow-lg rounded-3">
+    <Card className="about-card shadow-lg rounded-4" style={{ background: "#1e1e1e", border: "none", color: "#fff" }}>
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Apart from coding, here are some activities I really enjoy:
+          <p style={{ textAlign: "justify", fontSize: "1.05rem", lineHeight: 1.6 }}>
+            I’m a developer who turns ideas into scalable, high-performance applications.  
+            I love collaborating with clients, solving complex problems, and delivering user-friendly solutions.
           </p>
-          <ul>
+          <ul style={{ marginTop: "1rem", marginBottom: "1rem", listStyle: "none", paddingLeft: 0 }}>
             <li className="about-activity">
-              <ImPointRight /> 🎮 Playing Games
+              <ImPointRight /> Building modern web apps (React / Next.js / Node.js)
             </li>
             <li className="about-activity">
-              <ImPointRight /> ✍️ Writing Tech Blogs
+              <ImPointRight /> API development & serverless architectures
             </li>
             <li className="about-activity">
-              <ImPointRight /> 🌍 Travelling
+              <ImPointRight /> Automations, AI integrations & data pipelines
             </li>
             <li className="about-activity">
-              <ImPointRight /> ⚽ Playing Soccer
+              <ImPointRight /> Performance & maintainability focused design
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"
+          <p style={{ color: "rgb(155, 126, 172)", fontStyle: "italic" }}>
+            “Quality over quantity — shipping value always.”
           </p>
-          <footer className="blockquote-footer">Kevin</footer>
+          <footer className="blockquote-footer" style={{ color: "#aaa" }}>
+            Kevin
+          </footer>
 
-          {/* Gmail Contact Button */}
-          <div className="mt-3">
+          <div className="mt-4">
             <Button
-              variant="outline-danger"
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=kevinkirui003@gmail.com&su=Project%20Inquiry&body=Hi%20Kevin%2C%20I%27d%20like%20to%20discuss..."
+              variant="outline-primary"
+              href="mailto:kevinkirui003@gmail.com?subject=Project Inquiry"
+              target="_blank"
+              className="me-2"
+            >
+              📧 Let’s Talk
+            </Button>
+            <Button
+              variant="outline-light"
+              href="https://wa.me/254796809616?text=Hi%20Kevin%2C%20I’d%20like%20to hire you"
               target="_blank"
             >
-              📧 Email Me via Gmail
+              💬 WhatsApp
             </Button>
           </div>
         </blockquote>

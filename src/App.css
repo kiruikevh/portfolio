@@ -12,6 +12,56 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.project-section {
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  color: white;
+  padding: 80px 0;
+}
+
+.project-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-subtitle {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #cccccc;
+}
+
+.project-card {
+  background: #1e1e1e;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+}
+
+.project-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+.project-links {
+  margin-top: 15px;
+}
 
 .App-header {
   background-color: #282c34;
